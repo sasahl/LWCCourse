@@ -1,3 +1,12 @@
-.test-world {
-    font-size: large;
+.greeting-class {
+    color: #334488;
 }
+
+div {
+    border: 1px solid green;
+}
+
+/* This will target the template tag.  */
+/* :host {
+    border : 2px solid black;
+} */
