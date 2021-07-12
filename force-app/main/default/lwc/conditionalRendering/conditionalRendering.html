@@ -7,4 +7,9 @@
     <template for:each={cityList} for:item="city">
         <p key={city}>The name of the city is {city}</p>
     </template>
+
+    <h1>Below is an exemple of iterative directive</h1>
+    <template iterator:it={cityList}>
+        <p key={it.value}>{it.value}</p>
+    </template>
 </template>
