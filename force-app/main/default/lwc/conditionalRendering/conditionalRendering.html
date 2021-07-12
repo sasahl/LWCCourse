@@ -3,4 +3,8 @@
     <template if:true={displayDiv} >
         <div>I am here</div>
     </template>
+
+    <template for:each={cityList} for:item="city">
+        <p key={city}>The name of the city is {city}</p>
+    </template>
 </template>
