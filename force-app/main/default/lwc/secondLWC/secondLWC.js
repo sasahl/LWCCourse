@@ -4,4 +4,5 @@ export default class SecondLWC extends LightningElement {
 
     // This is a comment
     // Second comment
+    // Third comment
 }
